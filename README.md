@@ -1,19 +1,28 @@
-# ASystemOfPatterns
+# A System Of Patterns
 
-**TODO: Add description**
+This excercise will help you practice 'pattern matching' in very stripped down a to the point use cases.
 
-## Installation
+Under the `lib.a_system_of_patterns.ex`, you will find a bunch of functions that you will need to implement or reimplement.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `a_system_of_patterns` to your list of dependencies in `mix.exs`:
+## Excercise 1
 
-```elixir
-def deps do
-  [{:a_system_of_patterns, "~> 0.1.0"}]
-end
-```
+Elixir is a functional programming language, so usually you don't want to use if statements even if they are supported by the language, *pattern matching* is usually a more powerful concept to deal with polymorphism.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/a_system_of_patterns](https://hexdocs.pm/a_system_of_patterns).
+In the first excercise, you need to reimplement the functions without using `if` statements, details in the comments.
 
+## Excercise 2 
+
+Pattern matching can be very handy in unpacking complex data strucutre such as tuples and lists to access their elements, in this excercise you are tasked to reimplement functions that unpack several types of data strucutres in order to print their elements in the console.
+
+
+## Excercise 3
+
+Sometimes we might need to pattern match against *the value of a variable* and not to pattern match *a value in a variable*, in this excercise you are asked to figure out how.
+
+
+## Usefule links
+Finally, here are some useful links:
+- [module attributes](https://elixir-lang.org/getting-started/module-attributes.html)
+- [alias keyword](https://elixir-lang.org/getting-started/alias-require-and-import.html)
+- [pattern matching](https://elixir-lang.org/getting-started/pattern-matching.html)
+- [case, when...](https://elixir-lang.org/getting-started/case-cond-and-if.html)
